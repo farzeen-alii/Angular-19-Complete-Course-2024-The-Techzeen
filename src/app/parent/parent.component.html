@@ -1,0 +1,5 @@
+<div>
+  <h2>Parent Component</h2>
+  <input type="text" placeholder="Type Something" #inputField (keyup)="0" >
+  <app-child [messageProp]="inputField.value"></app-child>
+</div>
