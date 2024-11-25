@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-child',
   imports: [],
   templateUrl: './child.component.html',
   styleUrl: './child.component.css',
-  inputs: ['messageProp'],
+  // inputs: ['messageProp'],
 })
 export class ChildComponent {
-  messageProp: string = '';
+  // messageProp: string = '';
+  @Input() messageProp: string = '';
 }
