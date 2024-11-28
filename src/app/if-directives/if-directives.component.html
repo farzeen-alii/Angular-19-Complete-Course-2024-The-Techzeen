@@ -1,0 +1,19 @@
+<div>
+  <h1>Welcome to Angular 19 Structural Directives - if, elseif, else directives</h1>
+
+  @if (isLoggedIn && isAdmin) {
+    <div>
+      <p>Welcome, Admin!</p>
+    </div>
+  }
+  @else if (isLoggedIn && !isAdmin) {
+    <div>
+      <p>Welcome, User!</p>
+    </div>
+  }
+  @else {
+    <div>
+      <p>Please, Login to Continue!</p>
+    </div>
+  }
+</div>

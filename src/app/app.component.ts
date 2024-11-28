@@ -5,10 +5,11 @@ import { PreserveWhitespaceExampleComponent } from "./preserve-whitespace-exampl
 import { EncapsulationFirstComponent } from "./encapsulation-first/encapsulation-first.component";
 import { ParentComponent } from "./parent/parent.component";
 import { SuperComponent } from "./super/super.component";
+import { IfDirectivesComponent } from "./if-directives/if-directives.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None
