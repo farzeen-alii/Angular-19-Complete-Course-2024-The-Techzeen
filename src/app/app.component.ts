@@ -6,10 +6,11 @@ import { EncapsulationFirstComponent } from "./encapsulation-first/encapsulation
 import { ParentComponent } from "./parent/parent.component";
 import { SuperComponent } from "./super/super.component";
 import { IfDirectivesComponent } from "./if-directives/if-directives.component";
+import { SwitchCaseDirectiveComponent } from "./switch-case-directive/switch-case-directive.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None
