@@ -1,0 +1,23 @@
+<div>
+  <h1>For Directive</h1>
+  @for(user of users; let i = $index; let even = $even; let odd = $odd; let first = $first; let last = $last; track user.id){
+    <h2>{{i+1}}: {{ user.name }}
+      @if (first) {
+        (First User)
+      }
+      @if (last) {
+        (Last User)
+      }
+      @if (even) {
+        (Even)
+      }
+      @if (odd) {
+        (Odd)
+      }
+    </h2>
+
+  }
+  @empty {
+    <h2>No Users Found</h2>
+  }
+</div>
