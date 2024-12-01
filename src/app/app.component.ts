@@ -8,10 +8,11 @@ import { SuperComponent } from "./super/super.component";
 import { IfDirectivesComponent } from "./if-directives/if-directives.component";
 import { SwitchCaseDirectiveComponent } from "./switch-case-directive/switch-case-directive.component";
 import { ForDirectiveComponent } from "./for-directive/for-directive.component";
+import { NgClassDirectiveComponent } from "./ng-class-directive/ng-class-directive.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None

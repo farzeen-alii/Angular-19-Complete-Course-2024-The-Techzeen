@@ -1,0 +1,6 @@
+<div>
+  <h1>Angular 19 - ngClass Attribute Directive</h1>
+  <button [ngClass]="{ 'active-button': isActive, 'inactive-button': !isActive }" (click)="toggleState()">
+    {{ isActive ? 'Active' : 'Inactive' }}
+  </button>
+</div>
