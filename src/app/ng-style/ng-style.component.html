@@ -1,0 +1,8 @@
+<div>
+  <h1>Angular 19 - ngStyle Attribute Directive</h1>
+  <p [ngStyle]="{'color': trafficStatus === 'stop' ? 'red' : trafficStatus === 'slow' ? 'orange' : 'green'}">Traffic Light Status: {{ trafficStatus | uppercase }} </p>
+
+  <button (click)="setTrafficStatus('stop')">Stop</button>
+  <button (click)="setTrafficStatus('slow')">Slow</button>
+  <button (click)="setTrafficStatus('go')">Go</button>
+</div>
