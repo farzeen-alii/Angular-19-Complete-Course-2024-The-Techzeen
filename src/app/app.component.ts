@@ -12,10 +12,11 @@ import { NgClassDirectiveComponent } from "./ng-class-directive/ng-class-directi
 import { NgStyleComponent } from "./ng-style/ng-style.component";
 import { InterpolationComponent } from "./interpolation/interpolation.component";
 import { ErrorHandlingInterpolationComponent } from "./error-handling-interpolation/error-handling-interpolation.component";
+import { AttributeBindingComponent } from "./attribute-binding/attribute-binding.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None
