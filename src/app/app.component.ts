@@ -15,10 +15,11 @@ import { ErrorHandlingInterpolationComponent } from "./error-handling-interpolat
 import { AttributeBindingComponent } from "./attribute-binding/attribute-binding.component";
 import { StyleBindingComponent } from "./style-binding/style-binding.component";
 import { ClassBindingComponent } from "./class-binding/class-binding.component";
+import { PropertyBindingComponent } from "./property-binding/property-binding.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent, StyleBindingComponent, ClassBindingComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent, StyleBindingComponent, ClassBindingComponent, PropertyBindingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None
