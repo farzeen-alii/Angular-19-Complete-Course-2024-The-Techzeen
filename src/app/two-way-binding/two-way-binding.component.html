@@ -1,0 +1,8 @@
+<h1>Two Way Data Binding</h1>
+
+<!-- <input type="text" [value]="username" (input)="updateUsername($event)" >
+<p>Welcome, {{ username}}! </p> -->
+
+<input type="text" [(ngModel)]="username">
+
+<p>Welcome, {{ username}}! </p>
