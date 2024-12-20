@@ -18,10 +18,11 @@ import { ClassBindingComponent } from "./class-binding/class-binding.component";
 import { PropertyBindingComponent } from "./property-binding/property-binding.component";
 import { EventBindingComponent } from "./event-binding/event-binding.component";
 import { TwoWayBindingComponent } from "./two-way-binding/two-way-binding.component";
+import { CustomPipeComponent } from "./custom-pipe/custom-pipe.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent, StyleBindingComponent, ClassBindingComponent, PropertyBindingComponent, EventBindingComponent, TwoWayBindingComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent, StyleBindingComponent, ClassBindingComponent, PropertyBindingComponent, EventBindingComponent, TwoWayBindingComponent, CustomPipeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None
