@@ -1,0 +1,14 @@
+<div>
+  <h1>GET API Method</h1>
+  @if (posts.length > 0) {
+    <h2>POSTS: </h2>
+    <ul>
+      @for (post of posts; track $index) {
+        <li>{{post.title}}</li>
+      }
+    </ul>
+  }
+  @else {
+    <p>Loading......</p>
+  }
+</div>
