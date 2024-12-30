@@ -23,10 +23,11 @@ import { InjectableServiceComponent } from "./injectable-service/injectable-serv
 import { ScopedServiceComponent } from "./scoped-service/scoped-service.component";
 import { UtilityServiceComponent } from "./utility-service/utility-service.component";
 import { GetApiMethodComponent } from "./get-api-method/get-api-method.component";
+import { PostApiServiceComponent } from "./post-api-service/post-api-service.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent, StyleBindingComponent, ClassBindingComponent, PropertyBindingComponent, EventBindingComponent, TwoWayBindingComponent, CustomPipeComponent, InjectableServiceComponent, ScopedServiceComponent, UtilityServiceComponent, GetApiMethodComponent],
+  imports: [RouterOutlet, HostListenerExampleComponent, PreserveWhitespaceExampleComponent, EncapsulationFirstComponent, ParentComponent, SuperComponent, IfDirectivesComponent, SwitchCaseDirectiveComponent, ForDirectiveComponent, NgClassDirectiveComponent, NgStyleComponent, InterpolationComponent, ErrorHandlingInterpolationComponent, AttributeBindingComponent, StyleBindingComponent, ClassBindingComponent, PropertyBindingComponent, EventBindingComponent, TwoWayBindingComponent, CustomPipeComponent, InjectableServiceComponent, ScopedServiceComponent, UtilityServiceComponent, GetApiMethodComponent, PostApiServiceComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // encapsulation: ViewEncapsulation.None

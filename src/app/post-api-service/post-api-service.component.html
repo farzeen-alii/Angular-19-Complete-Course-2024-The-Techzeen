@@ -1,0 +1,17 @@
+<div>
+  <h1>Add User: </h1>
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <label>
+      Name:
+      <input type="text" formControlName="name">
+    </label>
+    <label>
+      Email:
+      <input type="email" formControlName="email">
+    </label>
+    <button type="submit" [disabled]="userForm.invalid">Add User</button>
+  </form>
+  @if (response) {
+    <p>{{response}}</p>
+  }
+</div>
