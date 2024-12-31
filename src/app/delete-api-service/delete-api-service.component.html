@@ -1,0 +1,14 @@
+<div>
+  <h1>Delete API Service</h1>
+  <ul>
+    @for (user of users; track $index) {
+      <li>
+        {{ user.name }} ({{user.email}})
+        <button (click)="deleteUser(user.id)">Delete</button>
+      </li>
+    }
+  </ul>
+  @if (response) {
+    <p>{{response}}</p>
+  }
+</div>
